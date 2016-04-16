@@ -1,1 +1,26 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+#wall > div {
+  display:none;
+}
+
+#wall #tag-2 div {
+  display:none;
+}
+
+/* erases everything including the wall lol
+div {
+  display:none;
+}*/
+
+div#wall div#tag-2 {
+  display:none;
+}
+
+div#wall div#tag-3.slick {
+  display:none;
+}
